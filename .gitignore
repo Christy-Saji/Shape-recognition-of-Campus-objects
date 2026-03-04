@@ -1,0 +1,59 @@
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environment ────────────────────────────
+DIP/
+venv/
+.venv/
+env/
+
+# ── Trained Model ──────────────────────────────────
+# Comment out if you want to include the model in the repo
+models/best_model.h5
+
+# ── Generated Files ────────────────────────────────
+metrics.json
+
+# ── Dataset ────────────────────────────────────────
+# Comment out if you want to include the dataset
+# dataset/
+
+# ── Test / Scratch Images ──────────────────────────
+test.jpg
+*.tmp
+
+# ── TensorFlow / Keras ────────────────────────────
+*.h5
+*.keras
+*.ckpt
+*.pb
+saved_model/
+
+# ── Jupyter ───────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE ───────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── OS ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────
+*.log
+logs/
+
+# ── Environment Variables ─────────────────────────
+.env
+.env.*
